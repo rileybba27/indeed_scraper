@@ -52,7 +52,7 @@ func FindNodeBasedOnPath(parent *html.Node, path []HTMLPath) (*html.Node, error)
 	}
 
 	if node == nil {
-		return nil, fmt.Errorf("Failed to find Node based on path: %s", path)
+		return nil, fmt.Errorf("Failed to find Node based on path")
 	}
 
 	return node, nil
