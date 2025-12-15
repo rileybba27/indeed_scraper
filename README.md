@@ -10,7 +10,7 @@ this program was created for the CD Block CP Data Science class in 2025
 1. install [go](https://go.dev/)
 2. go to [indeed.com](indeed.com)
 3. use your browser's developer tools to get your
-  cookie from your requests [see this example in chrome]()
+  cookie from your requests [see this example in chrome](docs/chrome_devtools.png)
 4. copy that cookie into a `cookie.txt` file in the directory
   of where you run the project
 5. run `go run . -- scrape` to run the program in scraping mode (to collect data)
